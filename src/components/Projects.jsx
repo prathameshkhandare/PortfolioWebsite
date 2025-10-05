@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
-import  Button  from "@/components/ui/button";
+import  Button  from "@/components/ui/Button";
 
 export default function Projects() {
   const projects = [
@@ -168,4 +168,5 @@ export default function Projects() {
       </div>
     </section>
   );
+
 }
