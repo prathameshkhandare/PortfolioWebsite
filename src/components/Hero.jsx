@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, Download, Mail } from "lucide-react";
-import  Button from "@/components/ui/button";
+import  Button from "@/components/ui/Button";
 
 export default function Hero() {
   const scrollToSection = (href) => {
@@ -133,5 +133,6 @@ export default function Hero() {
         </motion.div>
       </div>
     </section>);
+
 
 }
