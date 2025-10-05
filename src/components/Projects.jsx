@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
-import  Button  from "@/components/ui/Button"; // 
+import  Button  from "@/components/ui/Button"; // ✅ Proper import for ShadCN
 
 export default function Projects() {
   const projects = [
@@ -13,7 +13,7 @@ export default function Projects() {
       image:
         "https://westcoastuniversity.edu/wp-content/uploads/2023/06/WCU-Blog-Guide-to-Counseling-Degree-and-Career.jpg",
       githubLink: "",
-      liveLink: "https://www.connectcounsellor.com", 
+      liveLink: "https://www.connectcounsellor.com", // ✅ Added https
       featured: true,
     },
     {
